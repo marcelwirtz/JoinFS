@@ -19,6 +19,7 @@
 #define XPLM200
 #define XPLM210
 #define XPLM300
+#define XPLM400
 
 #ifdef _WINDOWS
 #include <WinSock2.h>
