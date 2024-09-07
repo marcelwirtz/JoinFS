@@ -1588,8 +1588,10 @@ namespace JoinFS
 
                                                 // modify position
                                                 x += objX;
-                                                y += objY - cogY;
-                                                z += objZ - cogZ;
+                                                y += objY;
+                                                z += objZ;
+                                                //y += objY - cogY;
+                                                //z += objZ - cogZ;
                                                 // write new position
                                                 objWriter.Write("VT\t" + x.ToString("F8", CultureInfo.InvariantCulture) + "\t" + y.ToString("F8", CultureInfo.InvariantCulture) + "\t" + z.ToString("F8", CultureInfo.InvariantCulture));
                                                 // copy remaining line
